@@ -23,6 +23,7 @@ int main(int argc, char* argv[])
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplRaylib_NewFrame();
         ImGui::NewFrame();
+        ImGui_ImplRaylib_ProcessEvent();
 
         BeginDrawing();
 
